@@ -67,6 +67,6 @@ class Charge(object):
 
     def _parse_events(self, events_attributes):
         if events_attributes:
-            return list(map(ChargeEvent, events_attributes))
+            return map(ChargeEvent, events_attributes)
         else:
             return []

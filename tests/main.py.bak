@@ -1,5 +1,5 @@
-from .test_charge import TestCharge
-from .test_client import TestClient
+from test_charge import TestCharge
+from test_client import TestClient
 import unittest
 
 
